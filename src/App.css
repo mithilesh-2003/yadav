@@ -27,6 +27,69 @@
 .App-link {
   color: #61dafb;
 }
+h1{
+  text-align: center;
+  color: hotpink;
+}
+p{
+  text-align: center;
+  color: white;
+  background: green;
+  width: 400px;
+  border: 1px solid red;
+  padding: 4px;
+  float: left;
+}
+.p1{
+  float: left;
+}
+.p2{
+  float: left;
+}
+.p3{
+  float: left;
+}
+.b1{
+  position: absolute;
+  top: 400px;
+  font-size: 20px;
+}
+.b2{
+  position: absolute;
+  top: 400px;
+  font-size: 20px;
+  right: 220px;
+}
+.a{
+  text-align: center;
+  margin-top: 20px;
+  color: aqua;
+  padding: 5px;
+}
+.b{
+  height: 400px;
+  width: 400px;
+  background: #61dafb;
+}
+.d{
+  position: absolute;
+  left: 800px;
+  font-size: large;
+  font-family: cursive;
+
+}
+.e{
+  position: absolute;
+  left: 400px;
+  font-size: large;
+  font-family: cursive;
+}
+.card1{
+
+}
+.card1:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 24);
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +98,5 @@
   to {
     transform: rotate(360deg);
   }
+ 
 }
